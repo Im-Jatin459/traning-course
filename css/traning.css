@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header ul{
+    display: flex;
+    margin: 40px;
+    gap: 70px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 8px;
+    border-bottom: 2px transparent solid;
+}
+header nav ul li:hover{
+    color: cyan;
+    border-color: cyan;
+}
+main header .icon{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+/* bg strat */
+main .bg-image{
+    background: url(../images/bg.jpg) center center no-repeat;
+    height: 500px;
+}
+main .bg-image .row-1{
+    padding: 100px;
+}
+main .bg-image .bg-col{ 
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    border-radius: 6px;
+    padding-top: 25px;
+    border: 1px transparent solid;
+}
+main .bg-image .bg-col .int{
+    border: 2px white solid;
+    color: white;
+    background: black;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+main .bg-image .bg-col .int:hover{
+    box-shadow: 15px 15px 15px black;
+}
+main .bg-image .bg-col .pro{
+    border: 2px white solid;
+    color: white;
+    background: black;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+main .bg-image .bg-col .pro:hover{
+    box-shadow: 15px 15px 15px black;
+}
+main .bg-image .bg-col .wd{
+    border: 2px white solid;
+    color: white;
+    background: black;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+main .bg-image .bg-col .wd:hover{
+    box-shadow: 15px 15px 15px black;
+}
+main .bg-image .bg-col .cl{
+    border: 2px white solid;
+    color: white;
+    background: black;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+main .bg-image .bg-col .cl:hover{
+    box-shadow: 15px 15px 15px black;
+}
+/* bg end */
+/* expertise start */
+main .expertse-part{
+    border: 1px black solid;
+    background-color: #ecf0f1;
+    height: 600px;
+    width: 90%;
+    margin: auto;
+}
+
+/* expertise end */
