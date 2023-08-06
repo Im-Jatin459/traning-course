@@ -128,9 +128,81 @@ main .expertse-part.expertse-part .col-1 .collaborate{
     text-align: center;
     font-size: 18px;
 }
-main .my-work{
-    height: 1000px;
-    background-color: #b2bec3;
-    border: 1px black solid;
-}
 /* expertise end */
+/* my recent work start */
+main .recent-work{
+    background-color: #dcdde1;
+}
+
+main .recent-work .row-1 .my-work.text{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+main .recent-work .row-2{
+    display: flex;
+}
+main .recent-work .row-2 .col-1.img{
+    padding: 70px;
+}
+main .recent-work .row-2 .col-2.text{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+main .recent-work .row-2 .col-2.text .cunt{
+    font-size: 30px;
+    padding-top: 40px;
+}
+main .recent-work .row-2 .col-2.text .clothing{
+    font-size: 25px;
+    padding-top: 20px;
+}
+main .recent-work .row-2 .col-2.text .text{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 50px;
+}
+hr{
+    border: none;
+    border-top: 2px black solid;
+    width: 80%;
+    margin: auto;
+}
+main .recent-work .row-3{
+    display: flex;
+}
+main .recent-work .row-3 .col-1.houston{
+    padding-left: 12%;
+    padding-top: 70px;
+
+}
+main .recent-work .row-3 .col-1.houston .cunt-2{
+    font-size: 30px;
+}
+main .recent-work .row-3 .col-1.houston .limo{
+    font-size: 30px;
+    padding-top: 20px;
+}
+main .recent-work .row-3 .col-1.houston .text-airport{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+main .recent-work .row-3 .col-2.img-houston{
+    padding: 60px;
+}
+hr{
+    border: none;
+    border-top: 2px black solid;
+    width: 80%;
+    margin: auto;
+}
+main .recent-work .row-4{
+    display: flex;
+}
+
+
+
+
+/* my recent work end */
