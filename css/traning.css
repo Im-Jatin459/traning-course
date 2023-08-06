@@ -94,11 +94,43 @@ main .bg-image .bg-col .cl:hover{
 /* bg end */
 /* expertise start */
 main .expertse-part{
-    border: 1px black solid;
     background-color: #ecf0f1;
-    height: 600px;
     width: 90%;
-    margin: auto;
+    margin: 70px 70px;
+    display: flex;
+    column-gap: 20%;
+    padding-left: 10%;
 }
-
+main .expertse-part .col-1{
+    width: 50%;
+    margin-top: 80px;
+}
+main .expertse-part.expertse-part .col-1 .text-ex{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold
+}
+main .expertse-part.expertse-part .col-1 .web-dg{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+main .expertse-part.expertse-part .col-1 .stunning-text{
+    width:400px;
+    padding: 20px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+main .expertse-part.expertse-part .col-1 .collaborate{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+main .my-work{
+    height: 1000px;
+    background-color: #b2bec3;
+    border: 1px black solid;
+}
 /* expertise end */
