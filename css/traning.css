@@ -201,8 +201,80 @@ hr{
 main .recent-work .row-4{
     display: flex;
 }
-
-
-
-
+main .recent-work .row-4 .col-1.cotton-img{
+    margin: 80px 90px;
+}
+main .recent-work .row-4 .col-2.text-cut{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+main .recent-work .row-4 .col-2.text-cut .cunt-3{
+    margin-top: 40px;
+    font-size: 30px;
+}
+main .recent-work .row-4 .col-2.text-cut .rack{
+    padding-top: 20px;
+    font-size: 30px;
+}
+main .recent-work .row-4 .col-2.text-cut .text-design{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+}
+hr{
+    border: none;
+    border-top: 2px black solid;
+    width: 80%;
+    margin: auto;
+}
+main .recent-work .row-5{
+    display: flex;
+}
+main .recent-work .row-5 .col-1.shivangi{
+    padding-left: 20%;
+    padding-top: 70px;
+}
+main .recent-work .row-5 .col-1.shivangi .cunt-4{
+    font-size: 30px;
+}
+main .recent-work .row-5 .col-1 .kealiwal{
+    font-size: 30px;
+    padding-top: 20px;
+}
+main .recent-work .row-5 .col-1 .text-store{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+main .recent-work .row-5 .col-2.img-sk{
+    padding: 60px;
+}
+hr{
+    border: none;
+    border-top: 2px black solid;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
 /* my recent work end */
+/* help area start */
+main .help-area{
+    background-color: #8395a7;
+    border: 1px red solid;
+}
+main .help-area .row1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+main .help-area .row2{
+    width: 100%;
+    border: 1px black solid;
+    display: flex;
+}
+main .help-area .row2 .col{
+    border: 1px blue solid;
+    width: 25%;
+    height: 500px;
+}
+/* help area end */
