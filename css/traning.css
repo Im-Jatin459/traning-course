@@ -39,58 +39,49 @@ main .bg-image{
 main .bg-image .row-1{
     padding: 100px;
 }
-main .bg-image .bg-col{ 
+main .bg-image .row-1 .buttons-area{
+    width: 440px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 30px #fff;
+}
+main .bg-image .row-1 .buttons-area .banner-btn button{
     font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    border-radius: 6px;
-    padding-top: 25px;
-    border: 1px transparent solid;
+    font-family: 'Stardos Stencil', cursive;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px #000 solid;
 }
-main .bg-image .bg-col .int{
-    border: 2px white solid;
+main .bg-image .row-1 .buttons-area .banner-btn:nth-child(1) button{
+    padding: 10px 70px;
+    background: #000;
     color: white;
-    background: black;
-    width: 150px;
-    display: flex;
-    justify-content: center;
+    border: 1px #fff solid;
 }
-main .bg-image .bg-col .int:hover{
-    box-shadow: 15px 15px 15px black;
+main .bg-image .row-1 .buttons-area .banner-btn:nth-child(1) button:hover{
+    background: #fff;
+    color: #000;
+    border: 1px #000 solid;
+    transition: all 0.2s ease, visibility 0s;
 }
-main .bg-image .bg-col .pro{
-    border: 2px white solid;
+main .bg-image .row-1 .buttons-area .banner-btn:nth-child(2) button{
+    padding: 10px 60px;
+    background: #fff;
+    color: #000;
+}
+main .bg-image .row-1 .buttons-area .banner-btn:nth-child(3) button{
+    padding: 10px 60px;
+    background: #000;
     color: white;
-    background: black;
-    width: 200px;
-    display: flex;
-    justify-content: center;
+    border: 1px #fff solid;
 }
-main .bg-image .bg-col .pro:hover{
-    box-shadow: 15px 15px 15px black;
-}
-main .bg-image .bg-col .wd{
-    border: 2px white solid;
-    color: white;
-    background: black;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-}
-main .bg-image .bg-col .wd:hover{
-    box-shadow: 15px 15px 15px black;
-}
-main .bg-image .bg-col .cl{
-    border: 2px white solid;
-    color: white;
-    background: black;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-}
-main .bg-image .bg-col .cl:hover{
-    box-shadow: 15px 15px 15px black;
-}
+
 /* bg end */
 /* expertise start */
 main .expertse-part{
@@ -373,7 +364,7 @@ main .test-area .row1 .test-text{
     width: 300px;
     padding-left: 100px;
 }
-hr{
+hr.testimo{
     border: none;
     border-top: 2px black solid;
     width: 100%;
@@ -411,7 +402,7 @@ main footer .let-work .let-row  .let-col.info .send-btn{
 }
 main footer .let-work .let-row  .let-col.info button{
     height: 30px;
-
+    
 }
 
 /* start working area end */
