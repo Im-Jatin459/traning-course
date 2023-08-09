@@ -408,3 +408,274 @@ main footer .let-work .let-row  .let-col.info button{
 /* start working area end */
 
 /* Project page */
+/* client stories start */
+.stories-hading{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+hr.stories-bod{
+    width: 300px;
+    margin-top: 20px;
+}
+.row2.client-area{
+    display: flex;
+}
+.row2.client-area .client-col.img{
+    padding: 70px;
+}
+.row2.client-area .client-col.text{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+
+.row2.client-area .client-col.text .cont{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.row2.client-area .client-col.text .hading{
+    padding-top: 30px;
+    font-size: 35px;
+}
+.row2.client-area .client-col.text .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 45px;
+}
+.row3.houston{
+    display: flex;
+}
+.row3.houston .houston-col.text{
+    padding-left: 12%;
+    padding-top: 70px;
+}
+.row3.houston .houston-col.img{
+    padding: 70px;
+}
+.row3.houston .houston-col .cont{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.row3.houston .houston-col .hading{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.row3.houston .houston-col .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.row4.cotton{
+    display: flex;
+}
+.row4.cotton .cotton-col.img{
+    padding: 70px;
+}
+.row4.cotton .cotton-col.text{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+
+.row4.cotton .cotton-col.text .cont{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.row4.cotton .cotton-col.text .hading{
+    padding-top: 30px;
+    font-size: 35px;
+}
+.row4.cotton .cotton-col.text .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 45px;
+}
+.row5.shivangi{
+    display: flex;
+}
+.row5.shivangi .shivangi-col.text{
+    padding-left: 12%;
+    padding-top: 70px;
+}
+.row5.shivangi .shivangi-col.img{
+    padding: 70px;
+}
+.row5.shivangi .shivangi-col .cont{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.row5.shivangi .shivangi-col .hading{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.row5.shivangi .shivangi-col .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.row6.peachez{
+    display: flex;
+}
+.row6.peachez .peachez-col.img{
+    padding: 70px;
+}
+.row6.peachez .peachez-col.text{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+
+.row6.peachez .peachez-col.text .cont{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.row6.peachez .peachez-col.text .hading{
+    padding-top: 30px;
+    font-size: 35px;
+}
+.row6.peachez .peachez-col.text .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 45px;
+}
+.row7.stpl{
+    display: flex;
+}
+.row7.stpl .stpl-col.text{
+    padding-left: 12%;
+    padding-top: 70px;
+}
+.row7.stpl .stpl-col.img{
+    padding: 70px;
+}
+.row7.stpl .stpl-col .cont{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.row7.stpl .stpl-col .hading{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.row7.stpl .stpl-col .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.row8.chingaaari{
+    display: flex;
+}
+.row8.chingaaari .chingaaari-col.img{
+    padding: 70px;
+}
+.row8.chingaaari .chingaaari-col.text{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+
+.row8.chingaaari .chingaaari-col.text .cont{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.row8.chingaaari .chingaaari-col.text .hading{
+    padding-top: 30px;
+    font-size: 35px;
+}
+.row8.chingaaari .chingaaari-col.text .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 45px;
+}
+.row9.jewellery{
+    display: flex;
+}
+.row9.jewellery .jewellery-col.text{
+    padding-left: 12%;
+    padding-top: 70px;
+}
+.row9.jewellery .jewellery-col.img{
+    padding: 70px;
+}
+.row9.jewellery .jewellery-col .cont{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.row9.jewellery .jewellery-col .hading{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.row9.jewellery .jewellery-col .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.row10.darbar{
+    display: flex;
+}
+.row10.darbar .darbar-col.img{
+    padding: 70px;
+}
+.row10.darbar .darbar-col.text{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+
+.row10.darbar .darbar-col.text .cont{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.row10.darbar .darbar-col.text .hading{
+    padding-top: 30px;
+    font-size: 35px;
+}
+.row10.darbar .darbar-col.text .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 45px;
+}
+.row11.april{
+    display: flex;
+}
+.row11.april .april-col.text{
+    padding-left: 12%;
+    padding-top: 70px;
+}
+.row11.april .april-col.img{
+    padding: 70px;
+}
+.row11.april .april-col .cont{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.row11.april .april-col .hading{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.row11.april .april-col .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.row12.squirrles{
+    display: flex;
+}
+.row12.squirrles .squirrles-col.img{
+    padding: 70px;
+}
+.row12.squirrles .squirrles-col.text{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+
+.row12.squirrles .squirrles-col.text .cont{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.row12.squirrles .squirrles-col.text .hading{
+    padding-top: 30px;
+    font-size: 35px;
+}
+.row12.squirrles .squirrles-col.text .text{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 45px;
+}
+/* client stories end */
+
