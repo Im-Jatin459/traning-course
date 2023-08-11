@@ -714,6 +714,7 @@ hr.stories-bod{
     padding: 100px;
     line-height: 50px;
 }
+
 .work-area .work-col.text .work-btn{
     padding: 0px 250px;
 }
@@ -740,6 +741,10 @@ hr.stories-bod{
     width: 18%;
     text-align: center;
     background-color: #7f8c8d;
+    transition: all 0.3s;
+}
+.work-me .work-colm .colm:hover{
+    transform: translateX(0px) translateY(-10px) scale(1);
 }
 .work-me .work-colm .colm .hading{
     font-size: 30px;
@@ -803,9 +808,6 @@ hr.testimo{
 .recipe{
     margin: 50px;
     border: 1px black solid;
-}
-.recipe .recipe-col img{
-    padding: 40px 0 30px 120px;
 }
 .businesses{
     margin: 50px;
