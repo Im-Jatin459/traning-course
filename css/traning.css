@@ -22,7 +22,7 @@ header ul{
     border-radius: 8px;
     border-bottom: 2px transparent solid;
 }
-header nav ul li:hover{
+header nav ul li a:hover{
     color: cyan;
     border-color: cyan;
 }
@@ -75,11 +75,23 @@ main .bg-image .row-1 .buttons-area .banner-btn:nth-child(2) button{
     background: #fff;
     color: #000;
 }
+main .bg-image .row-1 .buttons-area .banner-btn:nth-child(2) button:hover{
+    background: black;
+    color: white;
+    border: 1px white solid;
+    transition: all 0.2s ease, visibility 0s;
+}
 main .bg-image .row-1 .buttons-area .banner-btn:nth-child(3) button{
     padding: 10px 60px;
     background: #000;
     color: white;
     border: 1px #fff solid;
+}
+main .bg-image .row-1 .buttons-area .banner-btn:nth-child(3) button:hover{
+    background: #fff;
+    color: #000;
+    border: 1px #000 solid;
+    transition: all 0.2s ease, visibility 0s;
 }
 
 /* bg end */
@@ -677,5 +689,161 @@ hr.stories-bod{
     font-size: 20px;
     line-height: 45px;
 }
+.row.client-area .squirrles-btn{
+    display: flex;
+    justify-content: center;
+   margin-top: 40px;
+   margin-bottom: 30px;
+}
+.row.client-area .squirrles-btn button{
+    padding: 10px 40px;
+    font-size: 20px;
+}
 /* client stories end */
-
+/* work with me strat */
+.work-area{
+    display: flex;
+    margin-top: 40px;
+}
+.work-area .work-col.text {
+    border-bottom: 1px black solid;
+}
+.work-area .work-col.text .text-col{
+    border-top: 1px black solid;
+    font-size: 30px;
+    padding: 100px;
+    line-height: 50px;
+}
+.work-area .work-col.text .work-btn{
+    padding: 0px 250px;
+}
+.work-area .work-col.text .work-btn button{
+    padding: 10px 40px;
+    font-size: 20px;
+}
+.work-me{
+    margin-top: 40px;
+}
+.work-me .work-hading{
+    text-align: center;
+    font-size: 50px;
+}
+.work-me .work-colm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    column-gap: 10px; 
+    padding-bottom: 50px;
+}
+.work-me .work-colm .colm{
+    width: 18%;
+    text-align: center;
+    background-color: #7f8c8d;
+}
+.work-me .work-colm .colm .hading{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.work-me .work-colm .colm .text{
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+/* work with me end */
+/* testimonials strat */
+ .testimoinials{
+    background: #f1f2f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ .testimonials .testimo-hading{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+ .testimonials .row1{
+    display: flex;
+}
+ .testimonials .row1 .col-test{
+    width: 33%;
+}
+ .testimonials .row1 .img-ap{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.img-a{
+    border-radius: 115px;
+}
+ .testimonials .row1 .hading-tm{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: #2ed573;
+}
+ .testimonials .row1 .test-text{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 40px;
+    line-height: 30px;
+    width: 300px;
+    padding-left: 100px;
+}
+hr.testimo{
+    border: none;
+    border-top: 2px black solid;
+    width: 100%;
+}
+/* testimonials end */
+/* blog area start */
+.recipe{
+    margin: 50px;
+    border: 1px black solid;
+}
+.recipe .recipe-col img{
+    padding: 40px 0 30px 120px;
+}
+.businesses{
+    margin: 50px;
+    border: 1px black solid;
+}
+.businesses .businesses-col img{
+    padding: 40px 0 30px 120px;
+}
+footer .let-work .let-hading{
+    text-align: center;
+    font-size: 50px;
+}
+footer .let-work .let-row{
+    padding-top: 40px;
+    display: flex;
+}
+footer .let-work .let-row .let-col{
+    width: 50%;
+}
+footer .let-work .let-row .let-col .info-icon{
+    padding-left: 40%;
+    padding-top: 55px;
+    font-size: 20px;
+}
+footer .let-work .let-row  .let-col.info{
+    border: 2px black solid;
+    line-height: 90px;
+    padding-left: 70px;
+    padding-top: 50px;
+    margin: 0 70px 50px 0;
+}
+footer .let-work .let-row  .let-col.info .send-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+footer .let-work .let-row  .let-col.info button{
+    height: 30px;
+    
+}
+/* blog area end */
