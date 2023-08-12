@@ -149,6 +149,9 @@ main .recent-work .row-2{
 main .recent-work .row-2 .col-1.img{
     padding: 70px;
 }
+main .recent-work .row-2 .col-1.img :hover{
+right: 100%;
+}
 main .recent-work .row-2 .col-2.text{
     margin-top: 80px;
     padding-right: 50px;
